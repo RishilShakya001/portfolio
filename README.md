@@ -1,106 +1,117 @@
-# 🚀 Rishil Shakya — Software Engineer Portfolio
+# 🌐 Rishil Shakya - Portfolio
 
-A premium, modern, fully responsive personal portfolio website designed for software engineering internship recruitment. Built with a minimal and elegant dark theme with blue and purple accents, glassmorphic card elements, glowing hover states, and smooth spring-based animations.
+A modern, responsive developer portfolio built using **React**, **Vite**, and **Tailwind CSS** to showcase my projects, skills, coding profiles, and achievements.
 
-Designed with inspiration from **Stripe, Vercel, Linear, and Framer**.
+## 🚀 Live Demo
 
----
-
-## 🎨 Preview & Aesthetics
-
-* **Interactive Grids & Orbs**: Sleek dark background overlayed with a custom grid mesh pattern and ambient blur decorations.
-* **3D Mouse Tilt Cards**: Custom coordinates-based vanilla React card hover tilt animations on featured projects.
-* **Dynamic Typewriter**: Smooth custom loop typist highlighting core roles.
-* **Scroll-Spy Navbar**: Sticky glass header tracking active viewport sections and rendering a spring-driven scroll progress bar.
-* **5-Column Profiles Lineup**: Aligned badges tracking LeetCode, Codeforces, GitHub, GeeksforGeeks, and LinkedIn metrics.
+🔗 **Coming Soon**
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## ✨ Features
 
-* **Core**: [React 19](https://react.dev/) + [Vite 8](https://vite.dev/) (Client Environment)
-* **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (CSS-first engine)
-* **Animations**: [Framer Motion](https://www.framer.com/motion/) (Spring physics, fade reveals, scale interactions)
-* **Icons**: [Lucide React](https://lucide.dev/) (Lightweight vector utility icons)
-* **API Delivery**: [@emailjs/browser](https://www.emailjs.com/) (Direct frontend email delivery client)
+- Responsive modern UI
+- Smooth animations
+- About Me section
+- Skills showcase
+- Featured Projects
+- Coding Profiles
+- Resume download
+- Contact form with EmailJS
+- Mobile-friendly design
 
 ---
 
-## 📂 Project Architecture
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- EmailJS
+- React Icons
+- Lucide React
+
+---
+
+## 📂 Installation
+
+Clone the repository
 
 ```bash
-├── public/              # Static assets and icons
-├── src/
-│   ├── assets/          # Generated mockup images and laptop graphics
-│   ├── components/      # Reusable UI sections
-│   │   ├── BrandIcons.jsx      # Custom SVG brand logos (Codeforces, GFG, LeetCode)
-│   │   ├── Navbar.jsx          # ScrollSpy header with scroll progress
-│   │   ├── Hero.jsx            # Typer effect and float laptop
-│   │   ├── About.jsx           # Journey details, Education & Achievements
-│   │   ├── Skills.jsx          # Categorized skill nodes with glows
-│   │   ├── Projects.jsx        # 3D Tilt project cards
-│   │   ├── CodingProfiles.jsx  # Compact statistic profile cards
-│   │   ├── Contact.jsx         # Form validations and EmailJS simulation
-│   │   └── Footer.jsx          # Bottom bar & scroll-to-top button
-│   ├── data/
-│   │   └── portfolioData.js    # Decoupled portfolio details (change content here)
-│   ├── App.jsx          # Layout assembler
-│   ├── index.css        # Tailwind v4 engine & custom glassmorphism styles
-│   └── main.jsx         # Render mount point
-├── index.html           # Meta tags and title configuration
-├── vite.config.js       # Vite build chain configuration
-└── package.json         # Libraries and dev commands
+git clone https://github.com/Rishil-Shakya/portfolio.git
 ```
 
----
+Go to the project
 
-## 🚀 Getting Started
-
-### 1. Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
-
-### 2. Installation
-Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/RishilShakya001/<your-repository-name>.git
-cd <your-repository-name>
+cd portfolio
+```
+
+Install dependencies
+
+```bash
 npm install
 ```
 
-### 3. Run Locally
-Start the development server:
+Start development server
+
 ```bash
 npm run dev
 ```
-Open **[http://localhost:5173](http://localhost:5173)** in your browser to view the site.
 
-### 4. Build for Production
-Bundle and optimize the codebase:
+Build for production
+
 ```bash
 npm run build
 ```
-Vite will compile the code and generate the production files in the `/dist` directory.
 
 ---
 
-## ⚙️ Configuration & Customization
+## 🔑 Environment Variables
 
-### Content Updates
-All content (skills, stats, achievements, links, project descriptions) is decoupled from the UI. To update anything, simply edit **[src/data/portfolioData.js](src/data/portfolioData.js)**.
+Create a `.env` file.
 
-### EmailJS Setup
-To connect the contact form to your own email address:
-1. Create a free account at [EmailJS](https://www.emailjs.com/).
-2. Add an email service and create an email template.
-3. Create a `.env` file in your project root and add your keys:
-   ```env
-   VITE_EMAILJS_SERVICE_ID=your_service_id
-   VITE_EMAILJS_TEMPLATE_ID=your_template_id
-   VITE_EMAILJS_PUBLIC_KEY=your_public_key
-   ```
-*(Note: If these env variables are missing, the website will run in **Demo Mode**, automatically simulating a successful form submission).*
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
 
 ---
 
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
+## 🚀 Featured Projects
+
+### 🔥 Hellfire Scholar
+
+A full-stack academic platform with secure authentication, resource sharing, and personalized dashboards.
+
+**Tech:** React, Node.js, Express.js, MongoDB
+
+---
+
+### 💰 SpendWise
+
+An AI-powered expense tracker with budgeting, analytics, and smart expense categorization.
+
+**Tech:** React, Express.js, MongoDB
+
+---
+
+### 🎯 EventPulse
+
+A MERN-based event discovery platform with AI-powered recommendations and team collaboration.
+
+**Tech:** MongoDB, Express.js, React.js, Node.js
+
+---
+
+## 📫 Connect with Me
+
+- **GitHub:** https://github.com/Rishil-Shakya
+- **LinkedIn:** https://www.linkedin.com/in/rishil-shakya-41b223332/
+- **LeetCode:** https://leetcode.com/u/Rishil_Shakya/
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
